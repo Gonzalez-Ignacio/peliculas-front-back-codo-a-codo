@@ -1,0 +1,35 @@
+/*
+****************************************************************************************
+Consigna server.js
+
+* Router: Un router en Express es una manera de agrupar rutas relacionadas.
+* Es como un mini-servidor dentro del servidor principal.
+* Ayuda a organizar el codigo cuando tienes muchas rutas.
+*/
+
+/*
+* Objetivo: Crear un servidor que responda a consultas de películas
+* 1- Creamos la estructura del proyecto con un enrutador.
+* 2- Creamos los archivos "server.js", '/routes/movieRouter.js', '/public/movies.json'
+* 3- npm init -y. Configuramos el script con --watch
+* 4- npm i express --save
+* 5- Codificamos en orden:
+* 5.1- Codificamos el server.
+* 5.2- Codificamos el router.
+*/ 
+****************************************************************************************
+
+
+
+
+
+****************************************************************************************
+Consignas moviesRouter.js
+
+Cuando accedes a '/movies/sub-ruta' en tu navegador
+o herramienta como Postman, la aplicación:
+- Primero busca la ruta '/movies' en el archivo principal (server.js).
+- Luego delega el manejo de esa ruta al router moviesRouter.
+- Finalmente, Dentro de moviesRouter, Encuentra la SUBRUTA '/list'
+y ejecuta la funcion correspondiente que devuelve "sub_ruta"
+****************************************************************************************
